@@ -10,7 +10,7 @@ const count = ref(0)
 
 <template>
   <div class="bg">
-    <img src="src/assets/capa.png" class="logo" title="Mateus Porto" alt="Mateus Porto logo" />
+    <img src="/src/assets/capa.png" class="logo" title="Mateus Porto" alt="Mateus Porto logo" />
 
     <div class="buttons">
       <a href="https://mateusporto.mercadoshops.com.br/" target="_blank" class="btn">Compre a camiseta</a>
@@ -21,14 +21,14 @@ const count = ref(0)
       <p>disponível em todas as plataformas</p>
       
       <div class="platforms-links">
-        <a href="https://open.spotify.com/artist/4ObrU6FYKTDkoHHMcMQu7R?si=Wg4FsFD5Q7G2VUtX6_XqEA" target="_blank"><img src="src/assets/spotify.png" title="Spotify" alt="Spotify logo" /></a>
-        <a href="https://deezer.page.link/Dz6WBQQPpvkYuCx68" target="_blank"><img src="src/assets/deezer.png" title="Deezer" alt="Deezer logo" /></a>
-        <a href="https://youtube.com/channel/UCpNefuxWnHVLjpmJ80ciBlA" target="_blank"><img src="src/assets/youtube.png" title="YouTube" alt="YouTube logo" /></a>
-        <a href="" target="_blank"><img src="src/assets/napster.png" title="Napster" alt="Napster logo" /></a>
-        <a href="https://tidal.com/browse/artist/9163965" target="_blank"><img src="src/assets/tidal.png" title="Tidal" alt="Tidal logo" /></a>
-        <a href="https://music.apple.com/br/artist/mateus-porto/1292428804" target="_blank"><img src="src/assets/apple.png" title="Apple Music" alt="Apple Music logo" /></a>
-        <a href="" target="_blank"><img src="src/assets/google.png" title="Googlr Play" alt="Google Play logo" /></a>
-        <a href="https://music.amazon.com.br/artists/B07664NKDL/mateus-porto?marketplaceId=A2Q3Y263D00KWC&musicTerritory=BR&ref=dm_sh_nYo6DUmX91bc34C09giNZlgmh" target="_blank"><img src="src/assets/amazon.png" title="Amazon Music" alt="Amazon Music logo" /></a>
+        <a href="https://open.spotify.com/artist/4ObrU6FYKTDkoHHMcMQu7R?si=Wg4FsFD5Q7G2VUtX6_XqEA" target="_blank"><img src="/src/assets/spotify.png" title="Spotify" alt="Spotify logo" /></a>
+        <a href="https://deezer.page.link/Dz6WBQQPpvkYuCx68" target="_blank"><img src="/src/assets/deezer.png" title="Deezer" alt="Deezer logo" /></a>
+        <a href="https://youtube.com/channel/UCpNefuxWnHVLjpmJ80ciBlA" target="_blank"><img src="/src/assets/youtube.png" title="YouTube" alt="YouTube logo" /></a>
+        <a href="" target="_blank"><img src="/src/assets/napster.png" title="Napster" alt="Napster logo" /></a>
+        <a href="https://tidal.com/browse/artist/9163965" target="_blank"><img src="/src/assets/tidal.png" title="Tidal" alt="Tidal logo" /></a>
+        <a href="https://music.apple.com/br/artist/mateus-porto/1292428804" target="_blank"><img src="/src/assets/apple.png" title="Apple Music" alt="Apple Music logo" /></a>
+        <a href="" target="_blank"><img src="/src/assets/google.png" title="Googlr Play" alt="Google Play logo" /></a>
+        <a href="https://music.amazon.com.br/artists/B07664NKDL/mateus-porto?marketplaceId=A2Q3Y263D00KWC&musicTerritory=BR&ref=dm_sh_nYo6DUmX91bc34C09giNZlgmh" target="_blank"><img src="/src/assets/amazon.png" title="Amazon Music" alt="Amazon Music logo" /></a>
       </div>
     </div>
   </div>
