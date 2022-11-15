@@ -34,15 +34,23 @@ const count = ref(0)
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .bg {
-  background: url("src/assets/hero.png") no-repeat;
+  background: url("src/assets/hero.png") no-repeat center center;
   background-size: cover;
   height: 100vh;
+
+  @media(max-width: 765px) {
+    height: 100%;
+  }
 }
 .logo {
   margin-top: 100px;
   width: 520px;
+
+  @media(max-width: 765px) {
+    width: 320px;
+  }
 }
 .buttons {
   display: flex;
@@ -59,16 +67,26 @@ const count = ref(0)
   font-weight: bold;
   color: #000000;
   transition: all 0.5s ease;
-}
-.btn:hover {
-  opacity: .6;
+
+  &:hover {
+    opacity: .6;
+  }
 }
 .btn-transparent {
   background: transparent;
   color: #FFFFFF;
+
+  @media(max-width: 765px) {
+    margin-top: 15px;
+  }
 }
 .platforms {
   margin-top: 100px;
+
+  @media(max-width: 765px) {
+    margin-top: 50px;
+    padding-bottom: 40px;
+  }
 }
 .platforms p {
   color: #FFFFFF;
