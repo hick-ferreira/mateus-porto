@@ -36,7 +36,7 @@ const count = ref(0)
 
 <style lang="scss" scoped>
 .bg {
-  background: url("src/assets/hero.png") no-repeat center center;
+  background: url("../assets/hero.png") no-repeat center center;
   background-size: cover;
   height: 100vh;
 
@@ -57,48 +57,52 @@ const count = ref(0)
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 20px;
-}
-.btn {
-  border: 2px solid #FFFFFF;
-  background: #FFFFFf;
-  border-radius: 50px;
-  padding: 9px 35px;
-  margin: 0 10px;
-  font-weight: bold;
-  color: #000000;
-  transition: all 0.5s ease;
 
-  &:hover {
-    opacity: .6;
-  }
-}
-.btn-transparent {
-  background: transparent;
-  color: #FFFFFF;
+  .btn {
+    border: 2px solid #FFFFFF;
+    background: #FFFFFf;
+    border-radius: 50px;
+    padding: 9px 35px;
+    margin: 0 10px;
+    font-weight: bold;
+    color: #000000;
+    transition: all 0.5s ease;
 
-  @media(max-width: 765px) {
-    margin-top: 15px;
+    &:hover {
+      opacity: .6;
+    }
+
+    &.btn-transparent {
+      background: transparent;
+      color: #FFFFFF;
+
+      @media(max-width: 765px) {
+        margin-top: 15px;
+      }
+    }
   }
 }
 .platforms {
   margin-top: 100px;
+
+  p {
+    color: #FFFFFF;
+  }
 
   @media(max-width: 765px) {
     margin-top: 50px;
     padding-bottom: 40px;
   }
 }
-.platforms p {
-  color: #FFFFFF;
-}
 .platforms-links {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-}
-.platforms-links a {
-  margin: 0 12px;
+
+  a {
+    margin: 0 12px;
+  }
 }
 .read-the-docs {
   color: #888;
